@@ -1,0 +1,39 @@
+.sale{
+    background-image: url("../images/sale/sale__bg/Rectangle 2.png");
+    height: 604px;
+}
+.sale__items{
+    padding: 193px 0;
+    width: 308px;
+    height: 219px;
+    color: #fff;
+}
+.sale__title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+}
+.sale__subtitle{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    margin: 50px 0;
+}
+.sale__button{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 26px;
+    width: 170px;
+    color: #fff;
+    background: none;
+    border-radius: 40px;
+    border: 2px solid #fff;
+}
+.sale__button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}

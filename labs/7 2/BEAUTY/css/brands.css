@@ -1,0 +1,19 @@
+.brands{
+    background-color: #E5E5E5;
+}
+.brands__items{
+    background-color: white;
+}
+.brands__item-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.brands__item-column{
+    padding: 35px 60px;
+}
+.brands__item-row:nth-child(n+2){
+    border-top: 1px solid #efefef;
+}
+.brands__item-column{
+    border-right: 1px solid #efefef;
+}

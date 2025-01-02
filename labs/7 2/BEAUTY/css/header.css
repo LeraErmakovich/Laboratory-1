@@ -1,0 +1,102 @@
+.header__nav-container{
+    background: #E5E5E5;
+}
+.header__nav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 16px 0;
+}
+.header__nav-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.header__logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 120px;
+}
+.header__logo-img{
+    display: flex;
+    align-items: center;
+}
+.header__logo-images{
+    margin-right: 30px;
+}
+.header__logo-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    color: #f13c6e;
+}
+.header__label{
+    position: relative;
+}
+.header__label::before{
+    position: absolute;
+    content: "";
+    top: calc(50% - 10px);
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background: url("../images/header/header__input/search.png")  no-repeat;
+}
+.header__input{
+    text-align: center;
+    display: flex;
+justify-content: center;
+}
+.header__input-email{
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    padding: 20px 40px;
+    background: #efefef;
+    border: none;
+}
+.header__connection-number{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-right: 40px;
+}
+.header__connection-btn{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    padding: 12px 26px;
+    border: 2px solid #f13c6e;
+    border-radius: 40px;
+    background-color: white;
+}
+.header__connection-btn:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.header__nav:last-child{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.header__nav:last-child a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.header__line{
+    border: 1px solid #efefef;
+    height: 0px;
+}
+.header__nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #f13c6e;
+}
+

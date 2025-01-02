@@ -1,0 +1,61 @@
+.goods{
+    padding: 80px 0 100px 0;
+    background: #E5E5E5;
+}
+.goods__title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 38px;
+}
+.goods__items{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.goods__item{
+    width: 255px;
+    text-align: center;
+    padding: 25px 30px;
+    background: #fff;
+}
+.goods__item-title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141%;
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+.goods__item-price{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+.goods__item-price:hover{
+    text-decoration: underline;
+    text-decoration-color: #f13c6e;
+}
+.goods__item-button{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    background-color: #f13c6e;
+    border: none;
+}
+.goods__item-button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}

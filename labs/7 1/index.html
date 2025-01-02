@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кактусы</title>
+    <link rel="icon" href="images/ico.png" type="image/x-icon">
+    <meta name="description" content="Информация о различных видах кактусов, их уходе, выращивании и декоративном использовании. Узнайте интересные факты о кактусах их адаптации к экстремальным условиям." />
+    <meta name="keywords" content="кактусы, суккуленты, кактусовые растения, уход за кактусами, выращивание кактусов, декоративные кактусы, виды кактусов, советы по уходу" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="ico"></div>
+        <div class="burger-menu" id="burgerMenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="navList">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <section class="about">
+            <img src="images/1.jpg" class="kaktus" alt="Кактус">
+            <p class="text">
+                Кактусы - это растения, адаптированные к жизни в сухих и пустынных условиях. Их приспособления позволяют им выживать в условиях минимального количества воды и экстремальных температур. Они часто ассоциируются с пустынями, где их виды процветают в разнообразных формах и размерах.
+                Одной из ключевых особенностей кактусов являются их сочные стебли, которые служат для запасания влаги. Внутри этих стеблей находятся клетки, способные накапливать воду во время дождей или влажного периода, что позволяет растениям выживать в периоды засухи.
+                Кактусы могут иметь разнообразные формы: от высоких и колючих кактусов до мелких и компактных сортов. Их цветы также могут быть удивительно красочными и разнообразными, привлекая пчел и других опылителей.
+                Эти растения часто ассоциируются с выживанием, устойчивостью и адаптацией к трудным условиям. Их уникальные адаптации делают их интересными объектами изучения для ботаников и любителей растений. Кактусы являются неотъемлемой частью экосистем пустынь и представляют собой удивительное явление растительного мира.
+            </p>
+        </section>
+
+        <section class="types">
+            <div class="type">
+                <img src="images/2.jpg" alt="Вид Кактуса" class="img">
+                <p class="name">Сагуаро</p>
+            </div>
+            <div class="type">
+                <div class="type">
+                    <img src="images/2.jpg" alt="Вид Кактуса" class="img">
+                    <p class="name">Ферокактус Леди</p>
+                </div>
+            </div>
+            <div class="type">
+                <div class="type">
+                    <img src="images/4.jpg" alt="Вид Кактуса" class="img">
+                    <p class="name">Эхинокактус Грубери</p>
+                </div>
+            </div>
+            <div class="type">
+                <div class="type">
+                    <img src="images/5.jpg" alt="Вид Кактуса" class="img">
+                    <p class="name">Опунция</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="dop">
+            <h3>Полезные ссылки</h3>
+            <a href="#">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#">Услуги</a>
+            <a href="#">Контакты</a>
+            <p>Наши социальные сети</p>
+            <p>Кактусы - это важная часть природы!</p>
+        </div>
+            
+        <div class="right-block">
+            <p>&copy; 2024 Все права защищены</p>
+            <p>Сайт разработан Валерией!</p>
+            <p>ФИБ СиСИ 468403</p>
+        </div>
+    </footer>
+
+    <script>
+        const burgerMenu = document.getElementById('burgerMenu');
+        const navList = document.getElementById('navList');
+
+        burgerMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
